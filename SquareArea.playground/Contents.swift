@@ -33,3 +33,24 @@ if firstSquare.length < secondSquare.length {
 firstSquare.length
 
 
+
+
+//But below I can call the method:
+
+
+
+/*
+class Square {
+var length: Int = 1
+
+func area() -> Int {
+return length * length
+}
+}
+
+
+var squareOne = Square()
+squareOne.length = 8
+squareOne.area()
+
+*/
