@@ -7,12 +7,15 @@ import UIKit
 
 class Square {
     var length: Int
+    var area: Int
     init(length: Int) {
         self.length = length
         
-        func area(length: Int) -> Int {
+        func area() -> Int {
             return length * length
         }
+        
+        self.area = area()
     }
 }
 
@@ -31,6 +34,10 @@ if firstSquare.length < secondSquare.length {
 }
 
 firstSquare.length
+firstSquare.area
+
+let thirdSquare = Square(length: 5)
+thirdSquare.area
 
 
 
